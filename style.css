@@ -28,6 +28,7 @@ body {
  font-weight: 400;
  line-height: 1.4;
  background: #333;
+
 }
 
 h1, h2{
@@ -80,7 +81,7 @@ nav li a:hover{
 
 
 header .call-me{
-  background: rgb(0, 136, 169, 1);
+  background: #0088a9;
   padding: 10px;
   border: none;
   border-radius: 20px;
@@ -127,21 +128,21 @@ header .call-me{
 .background{
   background-color: #000;
   padding: 20px;
-   height: 400px;
+   height: auto;
    text-align: center;
    margin-bottom: 10px;
 }
 
 .background .about{
    width: 90%;
-   height: 300px;
+   height: auto;
    color: white;
-   margin: 40px 60px;
+   margin: 40px auto;
 }
 
 .title{
-  margin-bottom: 20px;
-  font-size: 4.5rem;
+  margin-bottom: 30px;
+  font-size: 3.2rem;
   color: white;
 }
 
@@ -149,11 +150,13 @@ header .call-me{
   margin-bottom: 20px;
   font-size: 2.6rem;
   font-weight: 500;
+  height: auto;
 }
 
 .learn-more {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .learn-more a{
@@ -161,14 +164,13 @@ header .call-me{
   color: #0088a9;
 }
 
-#skills{
+.skills{
   text-align: center;
 height: auto;
 padding-bottom: 40px;
 }
 
-#skills .title{
-  font-size: 4rem;
+.skills .title{
   margin-top: 40px;
 }
 
@@ -205,40 +207,65 @@ padding-bottom: 40px;
   margin-bottom: 40px;
 }
 
-#projects .container{
-  padding-bottom: 100px;
-  width: 20.875rem;
-  height: 20.25rem;
+#projects-background{
+  padding: auto;
+}
 
+#projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects .proj-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 980px;
+  height: auto;
+  margin-bottom: 120px;
 }
 
 #projects img{
-  width: 20.875rem;
-  height: 20.25rem;
-  margin-bottom: 10px; 
+  height: 300px;
+  width: 460px;
+  min-width: 200px;
+  margin-bottom: 20px;
 }
 
-.container .learn-more{
-  margin-top: 5px;
-  margin: auto;
-  font-size: 18px;
+#projects .container{
+  width: 400px;
+  height: 280px;
+  margin-top: 60px;
+}
+
+#projects .container p{
+  margin-bottom: 60px;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+#projects .container h3{
+  color: #0088a9;
+}
+
+.view{
+  padding: 10px 20px;
+  border: 2px solid #0088a9;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 #butn{
-  background: #0088a9;
-  border: none;
-  border-radius: 20px;
   padding: 10px;
-  width: 100px;
-  margin: auto;
-  cursor: pointer;
-  margin-top: 0;
+  color: #0088a9;
   }
 
   #butn a{
   text-decoration: none;
-  color: white;
-  font-weight: 800;
+  color: #0088a9;
   }
 
   .contact{
@@ -250,7 +277,7 @@ padding-bottom: 40px;
   }
 
 .contact .title{
-  font-size: 28px;
+  font-size: 23px;
 }
 
 .contact form{
@@ -269,15 +296,16 @@ padding-bottom: 40px;
   min-width: 600px;
 }
 
-.contact .butn{
-background-color: #be3144;
-color: white;
+.contact .butn, #butn{
+background-color: transparent;
+color: #0088a9;
 font-size: 16px;
 font-weight: 600;
 width: auto;
 padding: 15px 20px;
 border-radius: 20px;
 margin: 20px 0 40px 0;
+border: 2px solid #0088a9;
 }
 
 .contact-details{
