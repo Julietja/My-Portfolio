@@ -599,14 +599,14 @@ width: 490px;
     color: white;
     height: auto;
   }
-  #contact{
+  .contact{
     margin-bottom: 10px;
 width: 490px;
   }
 
 .contact .form-control{
   margin: auto
-  min-width: 300px;
+  width: 300px;
 }
 
 
