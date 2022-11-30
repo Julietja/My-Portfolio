@@ -28,7 +28,7 @@ body {
  font-weight: 400;
  line-height: 1.4;
  background: #333;
- box-sizing: border-box;
+
 
 }
 
@@ -529,7 +529,8 @@ footer{
     }
 
     @media screen and (max-width: 480px){
-      header{
+     body {box-sizing: border-box;} 
+     header{
         display: grid;
         grid-template-columns: 3fr 4fr 1fr ;
         flex-direction: row;
@@ -537,12 +538,12 @@ footer{
         font-weight: 500;
         padding: 2% 4%;
       }
-header img{
-  margin: 0 20px;
-  width: 30px;
-  height: 30px;
-  align-self: center;
-}      
+
+
+
+
+
+
 nav li a{
         padding: 0 5px;
         margin: 2px;
@@ -558,7 +559,7 @@ nav li a{
         padding: 12px 8px;
       }
       .hero{
-        height: 60vh;
+        height: 50vh;
         padding: 0px 23px;
        }
        
