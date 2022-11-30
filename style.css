@@ -529,7 +529,9 @@ footer{
     }
 
     @media screen and (max-width: 480px){
-     body {box-sizing: border-box;} 
+     body {box-sizing: border-box;
+width: 100vw;
+} 
      header{
         display: grid;
         grid-template-columns: 3fr 4fr 1fr ;
@@ -559,7 +561,7 @@ nav li a{
         padding: 12px 8px;
       }
       .hero{
-        height: 50vh;
+        width: 100vw;
         padding: 0px 23px;
        }
        
