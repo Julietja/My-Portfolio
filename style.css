@@ -530,13 +530,12 @@ footer{
     @media screen and (max-width: 480px){
      body {box-sizing: border-box;
 width: 100%;
-background: black;
 } 
      header{
         display: flex
         justify-content: center;
         font-weight: 500;
-        padding: 4px;
+        padding: 10px 8px;
 min-width: 500px;
       }
 
@@ -558,7 +557,7 @@ nav li a{
   align-self: center;
       }
       .hero{
-        min-width: 490px;
+        min-width: 480px;
         padding: 0px 23px;
 background-size: contain;
        }
