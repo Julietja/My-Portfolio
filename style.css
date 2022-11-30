@@ -537,7 +537,7 @@ background: black;
         justify-content: center;
         font-weight: 500;
         padding: 4px;
-min-width: 600px;
+min-width: 100%;
       }
 
 
