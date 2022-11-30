@@ -576,8 +576,8 @@ background-size: contain;
   background-color: #000;
   padding: 20px;
    height: auto;
-margin: auto;
-width: 500px;
+margin: 10px 0;
+width: 490px;
 }
        .about{
         padding: 3%;
