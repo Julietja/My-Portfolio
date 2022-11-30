@@ -533,6 +533,7 @@ width: 100vw;
 background: black;
 display: flex;
 justify-contents: center;
+flex-direction: column;
 } 
      header{
         display: grid;
