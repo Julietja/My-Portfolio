@@ -595,7 +595,7 @@ width: 490px;
          margin: 20px 8px 15px 0;
        }
        
-         .contact{
+         #contact{
     color: white;
     height: auto;
   }
@@ -606,7 +606,7 @@ width: 490px;
 
 .contact .form-control{
   margin: auto
-  width: 300px;
+  width: 200px;
 }
 
 
