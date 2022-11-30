@@ -595,15 +595,22 @@ width: 490px;
          margin: 20px 8px 15px 0;
        }
        
-       }
-       
-       #butn{
-         width: 60px;
-         }
-       
-       .contact-section{
-        padding: 2% 1rem;
-       }
+         .contact{
+    color: white;
+    height: auto;
+  }
+  #contact{
+    margin-bottom: 10px;
+width: 490px;
+  }
+
+.contact .form-control{
+  margin: auto
+  min-width: 300px;
+}
+
+
+
        
        .cont-header{
          font-size: 1.2rem;
