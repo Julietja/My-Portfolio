@@ -10,7 +10,6 @@
 /* the universal selector below was used to set general padding and margin on the whole page, this makes all the sections stretch to the end of the page at all sides*/
 *{padding: 0;
 margin: 0;
-box-sizing: border-box;
 }
 
 html{
@@ -532,6 +531,8 @@ footer{
      body {box-sizing: border-box;
 width: 100vw;
 background: black;
+display: flex;
+justify-contents: center;
 } 
      header{
         display: grid;
@@ -540,6 +541,7 @@ background: black;
         justify-content: center;
         font-weight: 500;
         padding: 2% 4%;
+margin: auto;
 width:100vw;
       }
 
