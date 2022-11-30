@@ -102,7 +102,7 @@ header .call-me{
  background: url('./images/picx.jpg');
  background-size: contain;
  position: relative;
- width: 100%;
+ width: 100vw;
  height: 100vh;
  align-items: center; 
  justify-content: center;
@@ -536,11 +536,12 @@ background: black;
 } 
      header{
         display: grid;
-        grid-template-columns: 3fr 4fr 1fr ;
+        grid-template-columns: 3fr 6fr 1fr ;
         flex-direction: row;
         justify-content: center;
         font-weight: 500;
         padding: 2% 4%;
+width:100vw;
       }
 
 
@@ -565,6 +566,7 @@ nav li a{
       .hero{
         width: 100vw;
         padding: 0px 23px;
+
        }
        
        .hero h1{
