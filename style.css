@@ -130,6 +130,7 @@ header .call-me{
   background-color: #000;
   padding: 20px;
    height: auto;
+width: 100vw;
    text-align: center;
    margin-bottom: 10px;
 }
