@@ -529,22 +529,15 @@ footer{
 
     @media screen and (max-width: 480px){
      body {box-sizing: border-box;
-width: 100vw;
+width: 100%;
 background: black;
-display: flex;
-justify-contents: center;
-flex-direction: column;
-align-items: center;
 } 
      header{
-        display: grid;
-        grid-template-columns: 3fr 6fr 1fr ;
-        flex-direction: row;
+        display: flex
         justify-content: center;
         font-weight: 500;
-        padding: 2% 4%;
-margin: auto;
-width:100vw;
+        padding: 4px;
+width:300px;
       }
 
 
@@ -557,19 +550,17 @@ nav li a{
         margin: 2px;
         width: 100px;
       }
+
       header .call-me{
         padding: 5px 5px;
         width: 70px;
         height: 30px;
   align-self: center;
       }
-      nav li a:hover{
-        padding: 12px 8px;
-      }
       .hero{
-        width: 100vw;
+        width: 100%;
         padding: 0px 23px;
-
+background-size: contain;
        }
        
        .hero h1{
