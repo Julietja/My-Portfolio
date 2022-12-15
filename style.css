@@ -38,8 +38,9 @@ header{
  position: sticky;
  top: 0;
  left: 0;
+right: 0;
  z-index: 1;
- padding: 20px 40px;
+ padding: 20px;
  font-family: 'Montserrat', sans-serif;
  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
 }
@@ -75,7 +76,6 @@ nav li a:hover{
   font-weight: 600; 
 }
 
-
 header .call-me{
   background: #0088a9;
   padding: 10px;
@@ -86,7 +86,7 @@ header .call-me{
   margin-right: 80px;
   font-weight: 600; 
   width: 80px;
-  height: 20px;
+  height: 30px;
   cursor: pointer;
 }
 
@@ -96,9 +96,9 @@ header .call-me{
  flex-wrap: nowrap;
  background: url('./images/picx.jpg');
  background-size: contain;
- position: relative;
- width: 100vw;
- height: 100vh;
+ position: absolute;
+ width: 100%;
+ height: auto;
  align-items: center; 
  justify-content: center;
  margin-bottom: 10px;
