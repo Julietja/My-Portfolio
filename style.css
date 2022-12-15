@@ -37,9 +37,10 @@ header{
  position: sticky;
  top: 0;
  left: 0;
-right: 0;
+width: 110%;
  z-index: 1;
  padding: 20px;
+margin: 0;
  font-family: 'Montserrat', sans-serif;
  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
 }
@@ -85,7 +86,7 @@ header .call-me{
   margin-right: 80px;
   font-weight: 600; 
   width: 80px;
-  height: 30px;
+  height: 40px;
   cursor: pointer;
 }
 
