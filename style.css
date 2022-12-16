@@ -579,7 +579,7 @@ nav li {
 }
 
 #projects img{
-  height: 280px;
+  height: 300px;
   width: 340px;
   min-width: 100px;
   margin-bottom: 20px;
@@ -587,12 +587,12 @@ nav li {
 
 #projects .container{
   width: 280px;
-  height: 340px;
+  height: 300px;
   margin-top: 60px;
 }
 
 #projects .container p{
-  font-size: 16px;
+  font-size: 18px;
 }
 
 
@@ -600,12 +600,12 @@ nav li {
   font-size: 18px;
 }
 .contact form{
- max-width: 30px;
+ width: 15px;
 }
 
 .contact .form-control{
   font-size: 14px;
-  max-width: 30px;
+  width: 15px;
 }
        .cont-header{
          font-size: 1.2rem;
