@@ -562,31 +562,25 @@ nav li a:hover{
  width: 100%;
 margin: 5px 15px;
 }
+
 .hero{
-min-width: 100%;
+width: 105%;
 margin: 0;
 }
        .hero h1{
-        font-size: 3rem;
-width: 100%;
-       }
+        font-size: 3rem;}
        
        .hero p{
         font-size: 1.4rem;
-width: 100%;
        }
 background{
-display: flex;
-flex-direction: column;
-    justify-content: center;
-align-items: center;
+margin: 0 0 10px 0;
 width: 100%;
    text-align: center;
 }
 
 .background .about{
    width: 100%;
-        padding: 3% 8px;
        }
 
 .subtitle{
@@ -651,10 +645,7 @@ padding: 8px 2px;
         font-size: 1.2rem;
         margin: 0 3%;
        }
-       
-       footer{
-        padding: 3% 0;
-       }
+      
        .first{
          margin: 0 6% 3% 6%;
          font-size: 1.4rem;
