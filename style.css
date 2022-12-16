@@ -581,10 +581,10 @@ margin: 0;
        }
 
 .background{
-position: absolute;
 width: 100%;
 margin-right: 0;
 box-sizing: border-box;
+right: 0;
 }
 .subtitle{
   font-size: 22px;
