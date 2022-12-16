@@ -572,16 +572,20 @@ margin: 5px 15px;
 width: 120%;
 margin: 0;
 }
-       .hero h1{
-        font-size: 3rem;}
+  .hero h1{
+ font-size: 3rem;
+}
        
-       .hero p{
-        font-size: 1.4rem;
+ .hero p{
+ font-size: 1.4rem;
        }
+
+. background{
+width: 120%
+}
 .subtitle{
   font-size: 22px;
 }
-
 
        #skills h2{
         font-size: 1.5rem;
