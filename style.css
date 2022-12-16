@@ -599,12 +599,6 @@ nav li {
 .contact .title{
   font-size: 18px;
 }
-.contact{
-display: flex;
- width: 15px;
-align-items: center;
-}
-
 .contact .form-control{
   font-size: 14px;
   width: 15px;
