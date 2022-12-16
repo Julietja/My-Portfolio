@@ -93,6 +93,7 @@ header .call-me{
 .hero{
  background: url('./images/picx.jpg');
 background-size: contain;
+position: absolute;
 }
 
 .hero h1{
@@ -100,7 +101,7 @@ background-size: contain;
  font-size: 7rem;
  font-weight: 700;
 position: relative;
-top: 50px;
+top: 150px;
  margin-bottom: 0px;
 }
 
