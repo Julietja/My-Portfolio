@@ -576,14 +576,13 @@ margin: 0;
 
 .background .about{
    width: 100%;
-   height: auto;
-   color: white;
-   margin: 40px 0;
-}
-       .about{
         padding: 3% 8px;
-        font-size: 1rem;
        }
+
+.subtitle{
+  font-size: 18px;
+}
+
 
        #skills h2{
         font-size: 1.5rem;
