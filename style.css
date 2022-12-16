@@ -633,7 +633,9 @@ margin: 0;
  .contact .form{
 width: 20px;
 }  
- 
+ .contact .form-control{
+width: 20px;
+}
 .cont-header{
          font-size: 1.2rem;
          margin-bottom: 2%;
