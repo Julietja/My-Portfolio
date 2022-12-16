@@ -39,7 +39,7 @@ header{
  left: 0;
 width: 100%;
  z-index: 1;
- padding: 20px;
+ padding: 30px;
 margin: 0;
  font-family: 'Montserrat', sans-serif;
  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
@@ -569,7 +569,7 @@ margin: 5px 15px;
 }
 
 .hero{
-mi-width: 110%;
+min-width: 110%;
 margin: 0;
 }
   .hero h1{
