@@ -635,7 +635,7 @@ align-items: center;
 width: 20px;
 }
 
- #contact form{
+ #contact .form-control{
 width: 20px;
 }   
 .cont-header{
