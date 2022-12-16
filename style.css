@@ -95,10 +95,10 @@ header .call-me{
  flex-direction: column;
  flex-wrap: nowrap;
  background: url('./images/picx.jpg');
- background-size: contain;
+ background-size: cover;
  position: relative;
  width: 100%;
- height: 98%;
+ height: 100%;
  align-items: center; 
  justify-content: center;
  margin: 0 0 10px 0;
