@@ -583,6 +583,7 @@ margin: 0 0 10px 0;
 .background{
 min-width: 110%;
 margin-right: 0;
+margin-bottom: 8px;
 }
 .subtitle{
   font-size: 22px;
@@ -628,14 +629,16 @@ margin-right: 0;
 }
 
 form{
-margin: 0;
 max-width: 20px;
+margin-left: 40px;
 }
+
 .contact .form-control{
   font-size: 14px;
 max-width: 20px;
 margin-left: 40px;
 }
+
 footer{
 margin-bottom: 0;
        }
@@ -654,7 +657,7 @@ margin-bottom: 0;
          font-size: 1.4rem;
        }
        .second{
-         font-size: 1.4rem;
+         font-size: 1.2rem;
 margin-bottom: 0;
        }
        } 
