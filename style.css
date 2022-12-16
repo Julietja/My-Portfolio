@@ -631,8 +631,8 @@ margin-bottom: 8px;
 width: 20px;
 margin: 0;
 }
- .contact .form .form-control{
-width: 800px;
+ .contact .form input[type=text]{
+width: 20px;
 position: relative;
 left: 50px;
 }  
