@@ -576,14 +576,10 @@ nav li {
     color: white;
     height: auto;
   }
-  .contact form{
-    margin-bottom: 10px;
-width: 490px;
-  }
 
 .contact .form-control{
   margin: auto
-  width: 200px;
+  max-width: 100px;
 }
        .cont-header{
          font-size: 1.2rem;
