@@ -630,7 +630,10 @@ margin-bottom: 8px;
 
  .contact{
 margin: 0;
-width: 100px;
+display: flex;
+justify-content: space-beween;
+padding: 0 40px;
+margin: 0
 }
  .contact form{
 width: 20px;
