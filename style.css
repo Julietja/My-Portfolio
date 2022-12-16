@@ -573,6 +573,10 @@ nav li {
          margin: 20px 8px 15px 0;
        }
        
+.contact form{
+ max-width: 100px;
+}
+
 .contact .form-control{
   font-size: 16px;
   max-width: 100px;
