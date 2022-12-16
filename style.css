@@ -541,6 +541,7 @@ header .call-me {
 
 nav li{
   display: block;
+margin-bottom: 8px;
   width: 100%;
 }
 
@@ -548,16 +549,18 @@ nav li{
   width: 100%;
   font-size: 16px;
 text-align: center;
+margin-bottom: 8px;
 }
 
 nav li a{
-  margin: 0 15px;
+  margin: 5px 15px;
   transition: all 0.2s ease 0s;
-width: 100px;
+width: 100%;
 }
 
 nav li a:hover{
  width: 100%;
+margin: 5px 15px;
 }
 .hero{
 min-width: 100%;
