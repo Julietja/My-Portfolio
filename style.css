@@ -570,7 +570,7 @@ margin: 5px 15px;
 
 .hero{
 width: 120%;
-margin: 0 0 10px 0;
+margin: 0 0 8px 0;
 }
   .hero h1{
  font-size: 3rem;
@@ -628,20 +628,20 @@ margin-bottom: 8px;
   font-size: 18px;
 }
 
+#contact{display: flex;
+flex-direction: column;
+justify-content: center;
+}
 form{
 max-width: 20px;
 margin-left: 40px;
 }
 
-.contact .form-control{
+#contact .form-control{
   font-size: 14px;
 max-width: 20px;
 margin-left: 40px;
 }
-
-footer{
-margin-bottom: 0;
-       }
        .cont-header{
          font-size: 1.2rem;
          margin-bottom: 2%;
