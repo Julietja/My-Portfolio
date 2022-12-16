@@ -582,6 +582,8 @@ margin: 0;
 
 . background{
 width: 120%;
+margin-right: 0;
+box-sizing: border-box;
 }
 .subtitle{
   font-size: 22px;
