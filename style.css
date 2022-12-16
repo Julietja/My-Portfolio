@@ -91,15 +91,10 @@ header .call-me{
 }
 
 .hero{
- display: flex;
- flex-direction: column;
- flex-wrap: nowrap;
  background: url('./images/picx.jpg');
  position: relative;
- min-width: 100%;
 background-size: contain;
  margin: 0 0 10px 0;
-padding: 0;
 }
 
 .hero h1{
