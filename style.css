@@ -627,14 +627,11 @@ margin-bottom: 8px;
 .title{
   font-size: 18px;
 }
- .contact form {
-width: 20px;
+ .contact{
 margin: 0;
 }
- .contact .form input[type=text]{
+ .contact .form{
 width: 20px;
-position: relative;
-left: 50px;
 }  
  
 .cont-header{
