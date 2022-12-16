@@ -97,8 +97,7 @@ header .call-me{
  background: url('./images/picx.jpg');
  position: relative;
  min-width: 100%;
- height: 70%;
-background-size: cover;
+background-size: contain;
  align-items: center; 
  justify-content: center;
  margin: 0 0 10px 0;
