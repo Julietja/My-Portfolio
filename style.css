@@ -93,8 +93,11 @@ header .call-me{
 .hero{
  background: url('./images/picx.jpg');
 background-size: contain;
-background-repeat: no repeat;
+background-repeat: no-repeat;
 position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 .hero h1{
@@ -102,7 +105,6 @@ position: relative;
  font-size: 7rem;
  font-weight: 700;
 position: relative;
-top: 150px;
  margin-bottom: 0px;
 }
 
