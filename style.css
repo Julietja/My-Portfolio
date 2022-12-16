@@ -627,14 +627,6 @@ margin-bottom: 8px;
 .title{
   font-size: 18px;
 }
-
- .contact{
-margin: 0;
-display: flex;
-flex-direction: column;
-justify-content: space-beween;
-padding: 40px 60px;
-}
  .contact form{
 width: 20px;
 }  
