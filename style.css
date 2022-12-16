@@ -631,11 +631,14 @@ margin-bottom: 8px;
 margin: 0;
 }
  .contact .form{
-width: 20px;
+width: 10px;
+display: flex;
+flex-direction: column;
+position: relative;
 }  
  .contact .form .form-control{
-width: 20px;
-position: relative;
+width: 10px;
+
 }
 .cont-header{
          font-size: 1.2rem;
