@@ -24,7 +24,6 @@ body {
  line-height: 1.4;
  background: #333;
 box-sizing: border-box;
-overflow: hidden;
 }
 
 h1, h2{
@@ -94,9 +93,8 @@ header .call-me{
 .hero{
  background: url('./images/picx.jpg');
 background-size: contain;
-background-repeat: no-repeat;
 position: relative;
-width: 102%;
+width: 105%;
 height: 100%
 padding: 0;
 margin: 0 0 10px 0;
