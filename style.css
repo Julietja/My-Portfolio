@@ -581,7 +581,7 @@ margin: 0;
        }
 
 . background{
-width: 120%
+width: 120%;
 }
 .subtitle{
   font-size: 22px;
@@ -591,7 +591,7 @@ width: 120%
         font-size: 1.5rem;
        }
       
-       .skills-wrapper img{
+    .skills-wrapper img{
          padding: 14px;
          width: 6.975rem;
          height: 6.925rem;
