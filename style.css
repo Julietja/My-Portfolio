@@ -634,7 +634,8 @@ margin: 0;
  .contact .form .form-control{
 width: 20px;
 display: flex;
-align-self: center;
+position: relative;
+left: 50px;
 }  
  
 .cont-header{
