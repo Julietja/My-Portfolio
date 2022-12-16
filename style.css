@@ -506,7 +506,8 @@ footer{
   }
 
   @media screen and (max-width: 680px){
-    header{
+   
+ header{
       padding: 10px 40px;
     }
     nav ul{
@@ -526,7 +527,13 @@ footer{
     }
 
     @media screen and (max-width: 480px){
-     header{
+    *{padding: 0;
+margin: 0;
+}
+body {
+box-sizing: border-box;
+}
+ header{
         display: flex;
 flex-direction: column;
         justify-content: center;
