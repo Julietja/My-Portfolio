@@ -574,12 +574,12 @@ nav li {
        }
        
 .contact form{
- max-width: 100px;
+ max-width: 60px;
 }
 
 .contact .form-control{
   font-size: 16px;
-  max-width: 100px;
+  max-width: 60px;
 }
        .cont-header{
          font-size: 1.2rem;
