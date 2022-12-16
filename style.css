@@ -632,8 +632,7 @@ width: 20px;
 margin: 0;
 }
  .contact .form .form-control{
-width: 20px;
-display: flex;
+width: 800px;
 position: relative;
 left: 50px;
 }  
