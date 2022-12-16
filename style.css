@@ -633,7 +633,8 @@ margin: 0;
 }
  .contact .form .form-control{
 width: 20px;
-height: 20px;
+display: flex;
+align-self: center;
 }  
  
 .cont-header{
