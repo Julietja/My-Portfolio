@@ -188,7 +188,7 @@ padding-bottom: 40px;
   display: inline-block;
   padding: 15px;
   width: 19.875rem;
-  height: 19.25rem;
+  height: 22.25rem;
   margin: 15px;
   border: none;
   border-radius: 10px;
@@ -197,9 +197,9 @@ padding-bottom: 40px;
 
 .skills-wrapper img{
   background-color: transparent;
-  width: 15.875rem;
-  height: 15.25rem;
-  margin-bottom: 6px;
+  width: 14.875rem;
+  height: 14.25rem;
+  margin: 6px;
 }
 
 #rule{
