@@ -518,9 +518,7 @@ footer{
       font-weight: 500;
      } 
      header .call-me{
-       margin-right: 15px; 
-       width: 50px;
-       height: 20px;
+       display: none;
      }
      nav li a:hover{
       padding: 12px 8px;
@@ -564,7 +562,7 @@ margin: 5px 15px;
 }
 
 .hero{
-width: 105%;
+width: 120%;
 margin: 0;
 }
        .hero h1{
@@ -573,16 +571,6 @@ margin: 0;
        .hero p{
         font-size: 1.4rem;
        }
-background{
-margin: 0 0 10px 0;
-width: 100%;
-   text-align: center;
-}
-
-.background .about{
-   width: 100%;
-       }
-
 .subtitle{
   font-size: 22px;
 }
@@ -630,7 +618,6 @@ width: 100%;
 form{
 margin: 0;
 width: 20px;
-padding: 8px 2px;
 }
 .contact .form-control{
   font-size: 14px;
