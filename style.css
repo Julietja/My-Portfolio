@@ -600,7 +600,9 @@ nav li {
   font-size: 18px;
 }
 .contact form{
+display: flex;
  width: 15px;
+align-items: center;
 }
 
 .contact .form-control{
