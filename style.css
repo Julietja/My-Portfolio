@@ -630,15 +630,13 @@ margin-bottom: 8px;
 
  .contact{
 margin: 0;
-width: 40px;
+width: 100px;
 }
- .contact .form{
-display: flex;
-flex-direction: column;
-position: relative;
+ .contact form{
+width: 20px;
 }  
-.form .form-control{
-width: 10px;
+form .form-control{
+width: 20px;
 }
 .cont-header{
          font-size: 1.2rem;
