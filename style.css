@@ -32,7 +32,7 @@ h1, h2{
 
 header{
  display: grid;
- grid-template-columns: 4fr 5fr 1fr;
+ grid-template-columns: 5fr 4fr 1fr;
  background: #be3144;
  position: sticky;
  top: 0;
@@ -199,7 +199,7 @@ padding-bottom: 40px;
   background-color: transparent;
   width: 14.875rem;
   height: 14.25rem;
-  margin: 2px;
+  margin: 1px;
 }
 
 #rule{
