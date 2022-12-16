@@ -534,20 +534,15 @@ flex-direction: column;
         justify-content: center;
 align-items: center;
         font-weight: 500;
-        padding: 10px 8px;
       }
 
 nav li {
         padding: 0 5px;
-        margin: 2px;
+        margin: 10px 2px;
         width: 100%;
         display: block;
       }
 
-      .call-me{
-       display: hidden;
-      }
-       
        .hero h1{
         font-size: 3rem;
        }
@@ -558,7 +553,7 @@ nav li {
 
        .about{
         padding: 3%;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
        }
 
        #skills h2{
@@ -598,6 +593,12 @@ nav li {
 
 .contact .title{
   font-size: 18px;
+}
+
+form{
+margin: 0;
+width: 20px;
+0padding: 8px 2px;
 }
 .contact .form-control{
   font-size: 14px;
