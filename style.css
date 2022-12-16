@@ -535,14 +535,33 @@ flex-direction: column;
 align-items: center;
         font-weight: 500;
       }
+header .call-me {
+  display: none;
+}
 
-nav li {
-        padding: 0 5px;
-        margin: 10px 2px;
-        width: 100%;
-        display: block;
-      }
+nav li{
+  display: block;
+  width: 100%;
+}
 
+#logo{
+  width: 100%;
+  font-size: 16px;
+}
+
+nav li a{
+  margin: 0 15px;
+  transition: all 0.2s ease 0s;
+width: 100px;
+}
+
+nav li a:hover{
+ width: 100%;
+}
+.hero{
+min-width: 100%;
+margin: 0;
+}
        .hero h1{
         font-size: 3rem;
        }
@@ -553,7 +572,7 @@ nav li {
 
        .about{
         padding: 3%;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
        }
 
        #skills h2{
@@ -591,14 +610,14 @@ nav li {
 }
 
 
-.contact .title{
+.title{
   font-size: 18px;
 }
 
 form{
 margin: 0;
 width: 20px;
-0padding: 8px 2px;
+padding: 8px 2px;
 }
 .contact .form-control{
   font-size: 14px;
