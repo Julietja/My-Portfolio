@@ -569,8 +569,8 @@ margin: 5px 15px;
 }
 
 .hero{
-min-width: 110%;
-margin: 0;
+width: 120%;
+margin: 0 0 10px 0;
 }
   .hero h1{
  font-size: 3rem;
@@ -633,7 +633,11 @@ max-width: 20px;
 }
 .contact .form-control{
   font-size: 14px;
+max-width: 20px;
 }
+footer{
+margin-bottom: 0;
+       }
        .cont-header{
          font-size: 1.2rem;
          margin-bottom: 2%;
