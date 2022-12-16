@@ -292,7 +292,7 @@ padding-bottom: 40px;
   background: #303030;
   font-size: 18px;
   color: white;
-  max-width: 600px;
+  min-width: 600px;
 }
 
 .contact .butn, #butn{
@@ -528,29 +528,23 @@ footer{
     }
 
     @media screen and (max-width: 480px){
-     body {box-sizing: border-box;
-width: 100%;
-background: #333;
-} 
      header{
         display: flex;
+flex-direction: column;
         justify-content: center;
         font-weight: 500;
         padding: 10px 8px;
-min-width: 500px;
       }
 
 nav li a{
         padding: 0 5px;
         margin: 2px;
         width: 100px;
+display: block;
       }
 
       header .call-me{
-        padding: 5px 5px;
-        width: 70px;
-        height: 30px;
-  align-self: center;
+       display: hidden;
       }
       .hero{
         min-width: 480px;
