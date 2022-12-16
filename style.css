@@ -95,6 +95,7 @@ header .call-me{
 background-size: contain;
 background-repeat: no-repeat;
 position: relative;
+height: 200px;
 }
 
 .hero h1{
