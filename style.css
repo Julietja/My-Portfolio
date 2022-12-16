@@ -576,19 +576,18 @@ nav li {
 #projects .proj-section{
   max-width: 380px;
   height: auto;
-  margin-bottom: 120px;
 }
 
 #projects img{
-  height: 200px;
-  width: 260px;
+  height: 280px;
+  width: 340px;
   min-width: 100px;
   margin-bottom: 20px;
 }
 
 #projects .container{
-  width: 200px;
-  height: 280px;
+  width: 280px;
+  height: 340px;
   margin-top: 60px;
 }
 
