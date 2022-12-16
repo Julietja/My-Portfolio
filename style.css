@@ -98,7 +98,7 @@ header .call-me{
  background-size: contain;
  position: relative;
  width: 100%;
- height: 95%;
+ height: 98%;
  align-items: center; 
  justify-content: center;
  margin: 0 0 10px 0;
@@ -326,7 +326,7 @@ border: 2px solid #0088a9;
 footer{
  text-align: center;
  padding: 2% 0;
-width: 100%;
+width: 100vw;
 }
 
 footer a {
@@ -338,6 +338,7 @@ footer a {
 .first, .second{
   margin-bottom: 1.5%;
   color: white;
+width: 100vw;
 }
 
 /*settings for diffrent screen sizes using media query */
