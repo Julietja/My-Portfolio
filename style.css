@@ -292,7 +292,7 @@ padding-bottom: 40px;
   background: #303030;
   font-size: 18px;
   color: white;
-  min-width: 600px;
+  max-width: 600px;
 }
 
 .contact .butn, #butn{
